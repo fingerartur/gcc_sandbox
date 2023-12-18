@@ -1,0 +1,16 @@
+{
+  "name": "gcc_sandbox",
+  "version": "1.0.0",
+  "description": "GCC sandbox",
+  "scripts": {
+    "build:npm": "node ./scripts/build.js",
+    "build": "bash ./scripts/build.sh",
+    "help": "java -jar closure-compiler-v20231112.jar --help"
+  },
+  "author": "Artur Finger <fingerartur@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "4",
+    "google-closure-compiler": "^20230802.0.0"
+  }
+}
